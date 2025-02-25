@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<% var n = "<font color=green>green</font>"; 
+   let k = 5; 
+%>
+<html>
+    <head>
+    
+    </head>
+    <body>
+        <p style="color: aquamarine; font-size: xx-large;"> Xin chao toi la Le Huy Hiep</p>
+        <p style="color: aquamarine; font-size: xx-large;"> <%= n %> </p>
+
+         <!-- su dung if else -->
+        <% if (k < 18) { %>
+        <p> ban chua 18 </p>
+        <% } else { %>
+        <p> ban da du tuoi</p>
+        <%  } %>
+        <!-- Su dung vong lap for -->
+        <% for (let i=0; i<5; i++) { %>
+            <p> Chaper <%= i %> </p>       <!-- ma html -->  
+        <% } %>
+    </body>
+</html>
